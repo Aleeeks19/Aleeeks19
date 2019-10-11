@@ -1,0 +1,66 @@
+html, body {
+    font-size: 10px;
+    font-family: "Segoe UI Light", sans-serif;
+    width: 100%;
+}
+.titrep1 {
+    font-size: 5rem;
+    font-family: "Segoe UI Light", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.fa-facebook-square, .fa-youtube, .fa-twitter-square, .fa-instagram {
+    color: white;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.bg-darkgrey {
+    background-color: dimgrey;
+}
+.text-white {
+    font-size: 3rem;
+    font-family: "Segoe UI Light", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.parallax {
+    background-image: url("https://cdn.hipwallpaper.com/i/26/4/X1uVYH.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titreparallax {
+    font-size: 5rem;
+    margin-top: 150px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+.texteparallax {
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: "Segoe UI Light", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    text-align: justify;
+}
+.apercu {
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+.imgparallax {
+    margin-top: 50px;
+}
+

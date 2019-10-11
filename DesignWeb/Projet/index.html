@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ultima Online</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- 3 PAGES : 1.        2.          3.
+4 sections (peu modifier l'ordre) : 1.Contact avec formulaire | 2.Jumbotron, card , bouton | 3.Parallax | 4.Font-Awesome
+<header> <section> <footer> dans les sections
+Footer peut etre : truc de copyright pour fermer le site
+navbar identique sur les 3 pages navbar =/= section  & remplacer le hamburger par une icône/image
+Accueil débute avec une section bannière 100% largeur/hauteur (photo, vidéo ou carousel)
+    Changer l'image 2 fois à l'aide des media queries (MD et XS)
+Section contact avec formulaire
+Utiliser polices inclusives (REM)
+Section Jumbotron, un card, un bouton
+Modal contenant un carousel
+Section avec un parallax
+Section avec des font-awesome
+Utiliser media queries pour que ca soit parfait peu importe la résolution.
+Favicon
+Publier sur github -->
+
+<!-- ACCUEIL -->
+<div class="container-fluid">
+    <div class="row align-items-center text-center no-gutters">
+        <div class="col-xl-12">
+            <h1 class="titrep1">PRÉSENTATION DE ULTIMA ONLINE</h1>
+        </div>
+    </div>
+</div>
+
+<!-- CAROUSEL -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="img-fluid" src="img/slide1.jpg" width="100%" alt="Ultima Online">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="img/slide2.jpg" width="100%" alt="Ultima Online">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="img/slide3.jpg" width="100%" alt="Ultima Online">
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-darkgrey">
+    <img class="img-fluid" src="img/ultimamenu.png" alt="Ultima Online" width="100px">
+    <a class="navbar-brand text-white" href="index.html">Page1</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="img/uohamburger.png" width="50px" alt="Ultima Online">
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <div class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link text-white" href="page2.html">Page2<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="page3.html">Page3</a></li>
+            </div>
+        </ul>
+    </div>
+    <i class="fab fa-facebook-square fa-3x"></i>
+    <i class="fab fa-youtube fa-3x"></i>
+    <i class="fab fa-twitter-square fa-3x"></i>
+    <i class="fab fa-instagram fa-3x"></i>
+</nav>
+<!-- FIN DE LA NAVBAR -->
+<!--  PARALLAX -->
+<div class="container-fluid parallax h-100">
+
+    <div class="row align-items-center no-gutters">
+        <div class="col-12 text-center">
+            <h1 class="titreparallax">Qu'est-ce que Ultima Online?</h1>
+        </div>
+    </div>
+
+    <div class="row align-items-center no-gutters">
+        <div class="col-xl-6 text-justify">
+            <h2 class="texteparallax">Ultima Online (abrégé en UO) est un jeu de rôle en ligne massivement multijoueur
+                publié le 30 septembre 1997 par la société Origin Systems. Il est souvent considéré comme le premier MMORPG populaire.
+                Le jeu nécessite d'être connecté via Internet à un serveur de jeu et immerge les joueurs dans un univers médiéval fantastique.</h2>
+        </div>
+        <div class="col-xl-6 text-center">
+            <img src="img/ultimawallpaper.jpg" class="img-fluid imgparallax" alt="Ultima Online" width="600px">
+        </div>
+    </div>
+
+    <div class="row align-items-center no-gutters">
+        <div class="col-xl-6 text-center">
+            <img src="img/ultima22.png" class="img-fluid img22" alt="Ultima 22nd Anniversary" width="700px">
+        </div>
+        <div class="col-xl-6 text-center">
+
+            <h1 class="apercu">Aperçu</h1>
+            <h2 class="texteparallax">Le succès du jeu a créé un nouveau marché dans le monde des jeux vidéo multijoueurs.
+                Le monde est représenté à l'aide d'une vue isométrique à la troisième personne reprenant l'univers de la série Ultima.
+                En ligne uniquement, des milliers de joueurs peuvent se connecter simultanément. Afin de maintenir l'ordre dans le monde,
+                des maîtres du jeu sont chargés de résoudre les conflits entre joueurs, d'appliquer les règles et de réparer les erreurs causées par des bugs.</h2>
+        </div>
+    </div>
+
+    <div class="row align-items-center no-gutters">
+        <div class="col-xl-12 text-center">
+            <h2 class="texteparallax">Aujourd'hui, le monde d'Ultima Online est toujours parcouru par un grand nombre de fidèles.
+                Mais il perd peu à peu du terrain face aux nombreux MMORPG modernes qui disposent de graphismes plus évolués,
+                de mondes plus vastes ou qui exploitent tout simplement des univers très connus comme Le Seigneur des Anneaux Online,
+                Star Wars Galaxies ou encore World of Warcraft.</h2>
+        </div>
+    </div>
+</div>
+<!-- FIN DU PARALLAX -->
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
