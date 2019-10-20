@@ -30,14 +30,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aleks\Documents\GitHub\Aleeeks19\DesignWeb\Projet\js" />
       <recent name="C:\Users\aleks\Documents\GitHub\Aleeeks19\DesignWeb\Projet\img" />
+      <recent name="C:\Users\aleks\Documents\GitHub\Aleeeks19\DesignWeb\Projet\js" />
       <recent name="C:\Users\aleks\Documents\GitHub\Aleeeks19\DesignWeb\Projet" />
       <recent name="C:\Users\aleks\Documents\GitHub\Aleeeks19\DesignWeb\Formulaires" />
       <recent name="C:\Users\aleks\Documents\GitHub\Aleeeks19\DesignWeb\Formulaires\js" />
@@ -69,7 +69,8 @@
       <workItem from="1570106077018" duration="974000" />
       <workItem from="1570555456685" duration="17549000" />
       <workItem from="1570814819107" duration="147000" />
-      <workItem from="1570815058304" duration="297000" />
+      <workItem from="1570815058304" duration="31601000" />
+      <workItem from="1571610916869" duration="3184000" />
     </task>
     <servers />
   </component>
