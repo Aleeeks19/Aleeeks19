@@ -1,0 +1,53 @@
+html, body {
+    font-size: 20px;
+    background-image: url("http://pavbca.com/walldb/original/8/4/0/96334.jpg")
+}
+.titre {
+    font-size: 1.3rem;
+    color: white;
+}
+.fa-keyboard {
+    color: white;
+}
+.offset {
+    margin-top: 30px;
+}
+.specialText {
+    color: white;
+}
+.boutonGO {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: transform .2s;
+}
+.boutonGO:hover {
+    transform: scale(1.1);
+}
+.bgImage {
+    background-image: url('../img/background/noir.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paddingRow {
+    margin-top: 50px;
+    padding: 50px 30px 50px 30px;
+}
+.choisirCouleur {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#noir,#blanc,#gris,#bleu,#bleuFonce,#rouge,#rose {
+    transition: transform .1s;
+}
+#noir:hover, #blanc:hover, #gris:hover, #bleu:hover, #bleuFonce:hover, #rouge:hover, #rose:hover {
+    transform: scale(1.05);
+}
+.choisirCouleur {
+    transition: transform .3s;
+}
+.choisirCouleur:hover {
+    transform: scale(1.1);
+}

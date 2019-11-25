@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="js/jquery-3.4.1.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+            integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"></script>
+    <script src="js/monScript.js" defer></script>
+</head>
+<body>
+<!----------------------------------------Formulaire pour entrer le mot------------------------------------------------>
+<div class="container-fluid offset">
+    <div class="row no-gutters">
+        <div class="col-xl-3"></div>
+        <div class="col-xl-6">
+            <div class="form-group">
+                <!------------------------------Titre de la box----------------------->
+                <label for="mot"><i class="far fa-keyboard fa-2x"></i><b class="titre"> Entrez votre mot</b></label>
+                <div class="row no-gutters">
+                    <!-----------------------Box pour entrer le mot-------------------------->
+                    <div class="col-xl-10">
+                        <input type="text" class="form-control" id="mot" placeholder="Entrez un mot entre 3 et 12 caractères">
+                    </div>
+                    <!------------------------Bouton Go-------------------------------------->
+                    <div class="col-xl-2">
+                        <button type="button" class="btn btn-dark boutonGO" id="boutonGoID">GO</button>
+                    </div>
+                </div>
+                <!-----------------------------Small ID------------------------------------->
+                <small id="special" class="form-text text-muted"><b class="specialText">Utilisez un * pour les caractères spéciaux.</b></small>
+            </div>
+        </div>
+    </div>
+                  <!-------------------------Couleur de fond---------------------------->
+    <div class="row no-gutters text-center">
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4">
+            <h4 class="choisirCouleur">Veuillez choisir une couleur de fond</h4>
+        </div>
+        <div class="col-xl-4"></div>
+    </div>
+    <div class="container">
+    <div class="row no-gutters text-center">
+        <div class="col" id="noir"><img src="img/background/noir.jpg" alt="" width="150px"></div>
+        <div class="col" id="blanc"><img src="img/background/blanc.jpg" alt="" width="150px"></div>
+        <div class="col" id="gris"><img src="img/background/gris.jpg" alt="" width="150px"></div>
+        <div class="col" id="bleu"><img src="img/background/bleu.jpg" alt="" width="150px"></div>
+        <div class="col" id="bleuFonce"><img src="img/background/bleuFonce.jpg" alt="" width="150px"></div>
+        <div class="col" id="rouge"><img src="img/background/rouge.jpg" alt="" width="150px"></div>
+        <div class="col" id="rose"><img src="img/background/rose.jpg" alt="" width="150px"></div>
+    </div>
+    </div>
+</div>
+<!---------------------------------------- COLONNES POUR LE MOT-------------------------------------------------------->
+<div class="container-fluid">
+    <div class="row bgImage paddingRow justify-content-center">
+        <div class="col" id="img0"><img src="img/Letters/J/J1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img1"><img src="img/Letters/A/A1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img2"><img src="img/Letters/V/V1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img3"><img src="img/Letters/A/A1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img4"><img src="img/Letters/S/S1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img5"><img src="img/Letters/C/C1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img6"><img src="img/Letters/R/R1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img7"><img src="img/Letters/I/I1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img8"><img src="img/Letters/P/P1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img9"><img src="img/Letters/T/T1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img10"><img src="img/Letters/CS/CS1.jpg" class="img-fluid" alt=""></div>
+        <div class="col" id="img11"><img src="img/Letters/CS/CS1.jpg" class="img-fluid" alt=""></div>
+    </div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------->
+</body>
+</html>
