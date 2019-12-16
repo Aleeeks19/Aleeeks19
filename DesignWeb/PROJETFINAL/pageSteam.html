@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Counter-Strike</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/csImg.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/csshake.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css%22%3E">
+    <script src="js/jquery-3.4.1.js" defer></script>
+    <script src="js/popper.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+            integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<!-------------------------------------------NAVBAR-------------------------------------------------------------------->
+<header class="header5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" id="navbar5">
+        <a class="navbar-brand" href="pagePrincipale.html"><img src="img/csImg.png" alt="Counter-Strike" title="Counter-Strike" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-caret-down fa-3x rotate"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link texteMenu" href="pagePrincipale.html"><i class="fas fa-book fa-1x"></i> HISTOIRE </a>
+                <a class="nav-item nav-link texteMenu" href="pagePrincipes.html"><i class="fas fa-headset fa-1x"></i> PRINCIPES </a>
+                <a class="nav-item nav-link texteMenu" href="pageMetiers.html"><i class="fas fa-video fa-1x"></i> MÉTIERS </a>
+                <a class="nav-item nav-link texteMenu" href="pageTournois.html"><i class="fas fa-trophy fa-1x"></i> TOURNOIS</a>
+                <a class="nav-item nav-link active texteMenu" href="pageSteam.html"><i class="fab fa-steam fa-1x"></i> STEAM <span class="sr-only">(current)</span></a>
+            </div>
+            <h1 class="texteCS outline">- Steam</h1>
+        </div>
+    </nav>
+</header>
+<!---------------------------------------------PAGE--------------------------------------------------------------->
+<div class="container-fluid parallaxPageIntro5 h-100" id="intro5">
+    <div class="row no-gutters">
+        <div class="col-xl-12 text-center">
+            <h1 class="grosTitre clickezSteam">Clickez pour savoir ce qu'est Steam</h1>
+        </div>
+    </div>
+    <div class="row no-gutters">
+        <!-------------POP OVER---------------------------->
+        <div class="col-xl-6 text-center">
+            <button type="button" class="btn-lg btn-light" data-toggle="popover" data-placement="bottom" title="Le saviez-vous?" id="popover"
+                    data-content="Counter-Strike: Global Offensive est encore aujourd'hui, même si le jeu a été créé en 2012, un des jeux les plus populaires sur Steam avec une moyenne d'environ 400 000 joueurs (août 2019).">
+                Le saviez-vous?
+            </button>
+        </div>
+        <div class="col-xl-6 text-center">
+                <img src="img/steamLogo.png" width="300px" title="Clickez ici" alt="Steam" id="steam" data-toggle="modal" data-target="#modal"
+                     class="shake-rotate shake-constant shake-constant--hover">
+            <!-------------------------MODAL---------------------->
+            <div class="modal" tabindex="-1" role="dialog" id="modal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Qu'est-ce que Steam?</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Steam est une plateforme de distribution de contenu en ligne, de gestion des droits
+                                et de communication développée par Valve et disponible depuis le 12 septembre 2003.
+                                Orientée vers les jeux vidéo, elle permet aux utilisateurs d'acheter des jeux, du
+                                contenu pour les jeux, de les mettre à jour automatiquement, de gérer la partie
+                                multijoueur des jeux et offre des outils communautaires autour des jeux utilisant Steam.
+                                Depuis octobre 2012, un service est consacré aux logiciels. Steam comptait en
+                                février 2015 plus de 125 millions d'utilisateurs et en mars 2017 plus de 14 000 jeux!</h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Wow!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-----------FIN DU MODAL----------------->
+        </div>
+    </div>
+    <br><br>
+    <div class="row no-gutters text-center">
+        <div class="col-xl-12">
+            <div class="jumbotron">
+                <h1 class="display-4">Steam</h1>
+                <p class="lead">Voici les jeux les plus populaires de Steam de tout les temps.</p>
+                <hr class="my-4">
+                    <img src="img/csgo.png" width="200px" title="Counter-Strike: Global Offensive" alt="CS:GO">
+                    <img src="img/tf2.png" width="200px" title="Team Fortress 2" alt="TF2">
+                    <img src="img/pubg.png" width="200px" title="PlayerUnknown's Battlegrounds" alt="CS:GO">
+                    <img src="img/left4dead2.png" width="200px" title="Left 4 Dead 2" alt="L4D2">
+                    <img src="img/payday2.png" width="200px" title="Payday 2" alt="PD2">
+                    <img src="img/garrysmod.png" width="200px" title="Garry's Mod" alt="Gmod">
+
+                <p class="lead"> <br><br>
+                    <a class="btn btn-outline-dark btn-lg" href="https://store.steampowered.com/?l=french" role="button">Site de Steam</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!------------------------------------------------FOOTER--------------------------------------------------------------->
+<footer class="footer5">
+    <div class="row no-gutters text-center">
+        <div class="col-xl-12">
+
+            <h1 class="footerTexte text-white">© 2019 Site créé par Aleksy Isabel. Tous droits réservés.<br>
+                Toutes les marques sont la propriété de leurs propriétaires respectifs.</h1>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

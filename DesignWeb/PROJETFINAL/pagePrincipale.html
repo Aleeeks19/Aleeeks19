@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Counter-Strike</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/csImg.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/csshake.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css%22%3E">
+    <script src="js/jquery-3.4.1.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+            integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<!----------------------------------------------------------------------------------------------------------------------
+Background Vidéo                             PAGE TOURNOIS
+1 formulaire de contact PAGE TOURNOIS
+1 Jumbotron
+1 modal
+1 pop hover
+1 collapse Bootstrap
+Le site est responsive et sera testé sur iPhone5, iPad et pc full HD (media queries) : 10 points
+Le site n’a pas d’erreur dans la console et est validé W3C validator. 5 points
+Votre site utilise une autre librairie de votre choix. 5 points
+----------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------NAVBAR-------------------------------------------------------------------->
+<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="navbar">
+            <a class="navbar-brand" href="pagePrincipale.html"><img src="img/csImg.png" alt="Counter-Strike" title="Counter-Strike" width="80px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-caret-down fa-3x rotate" id="caretDown"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link active texteMenu" href="pagePrincipale.html"><i class="fas fa-book fa-1x"></i> HISTOIRE <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texteMenu" href="pagePrincipes.html"><i class="fas fa-headset fa-1x"></i> PRINCIPES</a>
+                    <a class="nav-item nav-link texteMenu" href="pageMetiers.html"><i class="fas fa-video fa-1x"></i> MÉTIERS</a>
+                    <a class="nav-item nav-link texteMenu" href="pageTournois.html"><i class="fas fa-trophy fa-1x"></i> TOURNOIS</a>
+                    <a class="nav-item nav-link texteMenu" href="pageSteam.html"><i class="fab fa-steam fa-1x"></i> STEAM</a>
+                </div>
+                <h1 class="texteCS outline">L'histoire de Counter-Strike</h1>
+            </div>
+        </nav>
+</header>
+<!---------------------------------------------BIENVENUE--------------------------------------------------------------->
+<div id="myCarousel" class="carousel slide animated fadeInDown" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ul>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="img-fluid" src="img/slide1.jpg" alt="Counter-Strike" title="Counter-Strike">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="img/slide2.jpg" alt="Counter-Strike 1.6" title="Counter-Strike 1.6">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="img/slide3.jpg" alt="Counter-Strike: Source" title="Counter-Strike: Source">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="img/slide4.jpg" alt="Counter-Strike: Global Offensive" title="Counter-Strike: Global Offensive">
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div> <!-- Fin du carousel -->
+<hr>
+<!-------------------------------------------PAGE---------------------------------------------------------------------->
+<div class="container-fluid grosContainer">
+    <div class="row no-gutters text-center">
+        <div class="col-xl-12">
+            <h1 class="grosTitre" id="grosTitre">Brève histoire de Counter-Strike</h1>
+        </div>
+    </div>
+    <div class="row no-gutters text-center">
+        <div class="col-xl-4">
+            <img src="img/csImage.jpg" width="400px" alt="Counter-Strike Image" id="csImage" title="Counter-Strike (2000)" class="animated zoomInUp">
+            <img src="img/csCzImage.jpg" width="400px" alt="Counter-Strike: Condition Zero Image" id="csCzImage" title="Counter-Strike: Condition Zero (2004)" class="animated zoomInUp">
+            <img src="img/csOnlineImage.jpg" width="400px" alt="Counter-Strike: Online Image" id="csOnlineImage" title="Counter-Strike: Online (2008)" class="animated zoomInUp">
+        </div>
+        <div class="col-xl-4">
+            <h1 class="paragraphes">Counter-Strike (CS) est une série de jeux vidéo de tir à la première personne dans
+                lesquels deux équipes s'affrontent pour perpétrer ou empêcher un acte terroriste (attentat à la bombe,
+                prise d'otage, etc.). La série est nommée d'après le premier jeu de la série, Counter-Strike (2000),
+                qui est initialement publié comme mod pour le jeu vidéo Half-Life (1998) et conçu par Minh Le et Jess
+                Cliffe avant que les droits du jeu ne soient acquis par Valve, développeur de Half-Life. La série est suivie
+                par plusieurs autres jeux : Counter-Strike Neo (2003), Counter-Strike: Condition Zero (2004),
+                Counter-Strike: Source (2004), Counter-Strike Online (2008) et Counter-Strike: Global Offensive (2012).</h1>
+        </div>
+        <div class="col-xl-4">
+            <img src="img/csNeoImage.jpg" width="400px" alt="Counter-Strike: Neo Image" id="csNeoImage" title="Counter-Strike: Neo (2003)" class="animated zoomInUp">
+            <img src="img/csSourceImage.jpg" width="400px" alt="Counter-Strike: Source Image" id="csSImage" title="Counter-Strike: Source (2004)" class="animated zoomInUp">
+            <img src="img/csgoImage.jpg" width="400px" alt="Counter-Strike: Global Offensive Image" id="csGoImage" title="Counter-Strike: Global Offensive (2012)" class="animated zoomInUp">
+        </div>
+    </div>
+    <div class="row no-gutters text-center">
+        <div class="col-xl-6 text-justify">
+            <h1 class="paragraphes">
+                Counter-Strike est devenu, dès la sortie de sa première bêta en 1999, le jeu de tir à la première personne multijoueur en ligne de référence.
+                La première raison de ce succès est due au jeu original,
+                <b><a href="https://fr.wikipedia.org/wiki/Half-Life" class="lienHalfLife" title="https://fr.wikipedia.org/wiki/Half-Life">Half-Life</a></b>, sorti en novembre 1998.
+            </h1>
+        </div>
+        <div class="col-xl-6 text-center">
+            <img src="img/Half-life.jpg" width="300px" title="Le premier Half-Life" alt="Half-Life" id="imageHalfLife">
+        </div>
+    </div>
+</div>
+<!------------------------------------------------FOOTER--------------------------------------------------------------->
+<footer class="footer">
+    <div class="row no-gutters text-center">
+        <div class="col-xl-12">
+            <hr class="hrBlanc">
+            <h1 class="footerTexte">© 2019 Site créé par Aleksy Isabel. Tous droits réservés.<br>
+                Toutes les marques sont la propriété de leurs propriétaires respectifs.</h1>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

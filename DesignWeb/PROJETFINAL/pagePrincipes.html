@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Counter-Strike</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/csImg.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/csshake.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css%22%3E">
+    <script src="js/jquery-3.4.1.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+            integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<!-------------------------------------------NAVBAR-------------------------------------------------------------------->
+<header class="header2">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" id="navbar2">
+        <a class="navbar-brand" href="pagePrincipale.html"><img src="img/csImg.png" alt="Counter-Strike" title="Counter-Strike" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-caret-down fa-3x rotate"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link texteMenu" href="pagePrincipale.html"><i class="fas fa-book fa-1x"></i> HISTOIRE </a>
+                <a class="nav-item nav-link active texteMenu" href="pagePrincipes.html"><i class="fas fa-headset fa-1x"></i> PRINCIPES <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link texteMenu" href="pageMetiers.html"><i class="fas fa-video fa-1x"></i> MÉTIERS</a>
+                <a class="nav-item nav-link texteMenu" href="pageTournois.html"><i class="fas fa-trophy fa-1x"></i> TOURNOIS</a>
+                <a class="nav-item nav-link texteMenu" href="pageSteam.html"><i class="fab fa-steam fa-1x"></i> STEAM</a>
+            </div>
+            <h1 class="texteCS outline">- Principes de bases</h1>
+        </div>
+    </nav>
+</header>
+<!---------------------------------------------INTRO--------------------------------------------------------------->
+<div class="container-fluid parallaxPageIntro2 h-100" id="intro2">
+    <div class="row no-gutters">
+        <div class="col-xl-12 text-center">
+            <div class="container principes">
+                <h1 class="bienvenue outline">Principes de base</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row no-gutters">
+        <div class="col-xl-12 text-center">
+
+        </div>
+    </div> <br>
+</div>
+<hr class="hrBlanc">
+<!-------------------------------------------PAGE---------------------------------------------------------------------->
+<div class="container-fluid grosContainer2 h-100">
+    <div class="row no-gutters">
+        <div class="col-xl-6">
+            <h1 class="paragraphes2 animated bounceInLeft"><b>Déroulement d'une partie<br><br>
+                Le mode de jeu le plus joué est celui de compétitif. Ce mode sépare 2 équipes
+                (Les Terroristes et les Anti-Terroristes) de 5 joueurs l'une contre l'autre dans un match de 30 manches.
+                La durée d'une manche est de 1 minute et 55 secondes et le minuteur d'une bombe est de 40 secondes.
+                Il est impossible de changer de côté pendant la partie, seulement à la moitié. Après 15 manches,
+                les 2 équipes échange de côté. La première équipe à obtenir 16 manches gagne la partie. Si les deux équipes
+                arrivent à 15 manches chaque, la partie termine égalité. Il y a du temps supplémentaire pour les professionnels
+                et sur les platformes de compétitions (exemple: Faceit, ESEA, etc). Les parties peuvent aussi terminer avant
+                lorsqu'il y a une équipe qui abandonne. Un abandonnement comprend un vote affirmatif des 5 joueurs de l'équipe.
+                </b></h1>
+        </div>
+
+        <div class="col-xl-6">
+            <h2 class="clickez animated bounce">Clickez pour une fonction spéciale</h2>
+
+            <img src="img/ctCoin.png" width="180px" title="Anti-Terroristes" alt="Anti-Terroristes" id="ctCoin" class="animated bounceInUp">
+            <img src="img/Tcoin.png" width="180px" title="Terroristes" alt="Terroristes" id="tCoin" class="animated bounceInUp">
+
+            <button type="button" class="btn-lg btn-danger animated wobble" id="restart">Réinitialiser</button>
+
+            <iframe width="515" height="290" src="https://www.youtube.com/embed/a1lK2CKKGzI" frameborder="1"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------------------FOOTER--------------------------------------------------------------->
+<footer class="footer2">
+    <div class="row no-gutters text-center">
+        <div class="col-xl-12">
+            <hr class="hrBlanc">
+            <h1 class="footerTexte text-white">© 2019 Site créé par Aleksy Isabel. Tous droits réservés.<br>
+                Toutes les marques sont la propriété de leurs propriétaires respectifs.</h1>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
